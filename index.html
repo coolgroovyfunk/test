@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cool Groovy Funk — Limited Edition Stickers</title>
+<meta name="description" content="Limited edition, handmade sticker designs from Cool Groovy Funk.">
+<link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a href="#top" class="logo">Cool Groovy Funk</a>
+    <nav class="main-nav" aria-label="Primary">
+      <a href="#top">Home</a>
+      <a href="#about">About</a>
+      <a href="https://etsy.com/shop/coolgroovyfunk" target="_blank" rel="noopener">Shop on Etsy</a>
+      <a href="https://instagram.com/cool.groovy.funk" target="_blank" rel="noopener" aria-label="Instagram">Instagram</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="wrap hero-inner">
+      <div class="hero-badge" aria-hidden="true">
+        <span>NEW STICKERS<br>WEEKLY</span>
+      </div>
+      <h1 class="hero-title">Limited Edition<br>Stickers</h1>
+      <p class="hero-sub">Small-batch designs, stuck on with love. Grab one before it peels off the shelf for good.</p>
+    </div>
+  </section>
+
+  <section class="catalog" id="catalog">
+    <div class="wrap">
+      <div class="catalog-head">
+        <h2>The Wall</h2>
+        <div class="filter-chips" id="filterChips" role="group" aria-label="Filter stickers by category"></div>
+      </div>
+      <div class="sticker-grid" id="stickerGrid"></div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="wrap about-inner">
+      <h2>About the shop</h2>
+      <p>Cool Groovy Funk is a one-person sticker operation making weird, funny, and occasionally holographic art for your laptop, water bottle, or bumper. Every design starts as a doodle — some of them are even drawn by the shop owner's seven-year-old.</p>
+    </div>
+  </section>
+
+  <section class="newsletter">
+    <div class="wrap newsletter-inner">
+      <h2>Get Funked.</h2>
+      <p>New designs land every so often. Drop your email and we'll let you know.</p>
+      <form class="newsletter-form" onsubmit="return false;">
+        <label for="email" class="sr-only">Email address</label>
+        <input id="email" type="email" placeholder="Email address" required>
+        <button type="submit">Sign up</button>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>&copy; <span id="year"></span> Cool Groovy Funk. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="js/stickers-data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
