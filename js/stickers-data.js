@@ -83,7 +83,7 @@ const STICKERS = [
     id: "basstronaut",
     name: "Basstronaut Holographic Sticker",
     description: "Half bass, half space shuttle, and totally holo.",
-    image: "images/stickers/basstronaut.svg",
+    image: "images/stickers/basstronaut-cutout.png",
     category: "Music",
     etsyUrl: "https://etsy.com/shop/coolgroovyfunk",
     isNew: true
