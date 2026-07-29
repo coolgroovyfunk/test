@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <circle cx="32" cy="32" r="30" fill="#ef4d8b"/>
-  <circle cx="32" cy="32" r="30" fill="none" stroke="#f7f1e3" stroke-width="3" stroke-dasharray="4 3"/>
-  <text x="32" y="42" font-size="30" text-anchor="middle" font-family="sans-serif">✨</text>
+  <circle cx="32" cy="32" r="30" fill="#ffffff" stroke="#111111" stroke-width="3"/>
+  <circle cx="32" cy="32" r="24" fill="none" stroke="#ff3d1f" stroke-width="2" stroke-dasharray="3 3"/>
+  <text x="32" y="41" font-size="26" text-anchor="middle" font-family="sans-serif">✌️</text>
 </svg>
