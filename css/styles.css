@@ -390,47 +390,20 @@ a { color: inherit; }
   font-size: 0.9rem;
 }
 
-.newsletter-form {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  flex-wrap: wrap;
-  max-width: 420px;
+.form-embed {
+  max-width: 640px;
   margin: 0 auto;
-}
-
-.newsletter-form input {
-  flex: 1 1 220px;
-  padding: 12px 16px;
-  border-radius: 8px;
-  border: 2px solid #3a3a3a;
-  background: #1c1c1c;
-  color: var(--bg);
-  font-family: var(--font-body);
-  font-size: 0.9rem;
-}
-
-.newsletter-form input::placeholder { color: #8a8a8a; }
-
-.newsletter-form button {
-  padding: 12px 22px;
-  border-radius: 8px;
-  border: 2px solid var(--accent);
-  background: var(--accent);
-  color: var(--bg);
-  font-family: var(--font-body);
-  font-weight: 700;
-  text-transform: uppercase;
-  font-size: 0.85rem;
-  letter-spacing: 0.02em;
-  cursor: pointer;
-  transition: transform 0.15s ease, background 0.15s ease;
-}
-
-.newsletter-form button:hover {
   background: var(--bg);
-  color: var(--accent);
-  transform: translateY(-2px);
+  border: 2px solid var(--line);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.form-embed iframe {
+  display: block;
+  width: 100%;
+  height: 700px;
+  border: 0;
 }
 
 /* -----------------------------------------------------------
@@ -456,8 +429,7 @@ a { color: inherit; }
   html { scroll-behavior: auto; }
   .sticker-card,
   .sticker-card-inner,
-  .sticker-peel,
-  .newsletter-form button {
+  .sticker-peel {
     transition: none;
   }
 }
@@ -478,4 +450,5 @@ a { color: inherit; }
     transform: rotate(var(--rot, 0deg));
   }
   .catalog-head { flex-direction: column; align-items: flex-start; }
+  .form-embed iframe { height: 900px; }
 }
